@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(21, 44, 44);
+    color: rgb(230, 175, 103);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a, footer span {
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+header #info-title {
+    height: 2rem;
+    font-size: 1.7rem;
+    margin-top: 10rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+main #level-title {
+    height: 3rem;
+    font-size: 2.5rem;
+}
+
+.game-buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 15rem);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    margin-top: 8rem;
+    gap: 2rem;
+}
+
+.game-buttons {
+    width: 15rem;
+    height: 15rem;
+
+    border: .7rem solid rgb(29, 29, 29);
+    border-radius: 3rem;
+
+    cursor: pointer;
+}
+
+.game-button-1 {
+    background-color: rgb(182, 37, 37);
+}
+
+.game-button-2 {
+    background-color: rgb(14, 160, 14);
+}
+
+.game-button-3 {
+    background-color: rgb(39, 39, 207);
+}
+
+.game-button-4 {
+    background-color: rgb(230, 230, 36);
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: .9rem;
+}
+
+footer .copyright {
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+
+.pressed {
+    box-shadow: 0 0 1rem 1rem rgba(255, 151, 14, 0.4);
+}
+
+.game-over {
+    background-color: rgb(170, 21, 21);
+}
